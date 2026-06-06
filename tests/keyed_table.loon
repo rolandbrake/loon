@@ -1,0 +1,3 @@
+rows(name, age, active):
+  "Ada", 36, true
+  "Linus", 55, false

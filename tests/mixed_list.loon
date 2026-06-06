@@ -1,0 +1,12 @@
+items:
+  [
+    1
+    {name: "flat", ok: true}
+    {
+      name: "deep"
+      meta:
+        rank: 2
+    }
+    [1, 2, 3]
+    []
+  ]

@@ -1,0 +1,14 @@
+{
+  "rows": [
+    {
+      "name": "Ada",
+      "age": 36,
+      "active": true
+    },
+    {
+      "name": "Linus",
+      "age": 55,
+      "active": false
+    }
+  ]
+}

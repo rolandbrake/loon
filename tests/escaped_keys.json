@@ -1,0 +1,9 @@
+{
+  "": "empty key",
+  "first name": "Ada \"Lovelace\"",
+  "a:b": "colon",
+  "x,y": "comma",
+  "items()": "parens",
+  "line\nkey": "line\nvalue",
+  "slash\\key": "slash\\value"
+}

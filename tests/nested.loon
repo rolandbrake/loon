@@ -1,0 +1,8 @@
+widget:
+  debug: "on"
+  "window member":
+    title: "Sample Konfabulator Widget"
+    width: 500
+    height: 500
+  flags:
+    [true, false, null]
