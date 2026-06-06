@@ -1,26 +1,48 @@
-{"widget": {
-    "debug": "on",
-    "window member": {
-        "title": "Sample Konfabulator Widget",
-        "name": "main_window",
-        "width": 500,
-        "height": 500
+{
+  "project": "LOON",
+  "version": 1,
+  "active": true,
+  "ratio": 2.5,
+  "missing": null,
+  "first name": "Ada \"Lovelace\"",
+  "a:b": "quoted key",
+  "line\nkey": "line\nvalue",
+  "settings": {
+    "theme": "light",
+    "limits": {
+      "min": -3,
+      "max": 42
     },
-    "image": { 
-        "src": "Images/Sun.png",
-        "name": "sun1",
-        "hOffset": 250,
-        "vOffset": 250,
-        "alignment": "center"
+    "flags": [
+      true,
+      false,
+      null
+    ]
+  },
+  "items": [
+    "alpha",
+    2,
+    {
+      "name": "nested",
+      "ok": true
     },
-    "text": {
-        "data": "Click Here",
-        "size": 36,
-        "style": "bold",
-        "name": "text1",
-        "hOffset": 250,
-        "vOffset": 100,
-        "alignment": "center",
-        "onMouseUp": "sun1.opacity = (sun1.opacity / 100) * 90;"
+    [
+      1,
+      2,
+      3
+    ],
+    []
+  ],
+  "people": [
+    {
+      "name": "Ada",
+      "age": 36,
+      "active": true
+    },
+    {
+      "name": "Grace",
+      "age": 85,
+      "active": false
     }
-}}    
+  ]
+}
